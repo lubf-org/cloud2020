@@ -13,7 +13,7 @@ eureka:
       #defaultZone: http://127.0.0.1:7001/eureka
       defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka
 
-#设置超时时间：openfegion默认1秒，默认集成ribbon
+#openfegion设置超时时间：openfegion默认1秒，默认集成了ribbon
 ribbon:
   ConnectTimeout: 5000 #连接超时  #指的是建立连接所用的时间，适用于网络状况正常的情况下，两端连接所用的时间
   ReadTimeout:  6000 #操作超时 >=连接超时     指的是建立连接后从服务器读取到可用资源所用的时间

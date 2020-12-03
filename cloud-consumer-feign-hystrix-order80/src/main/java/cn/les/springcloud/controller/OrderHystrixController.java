@@ -27,7 +27,7 @@ public class OrderHystrixController {
     @Value("${server.port}")
     private String port;
 
-    @GetMapping("/payment/hystrix/ok/{id}")
+    @GetMapping("/consumer/payment/hystrix/ok/{id}")
     public String paymentInfo_OK(@PathVariable("id") Integer id){
         String result = paymentHystrixService.paymentInfo_OK(id);
         log.info("*******result:"+result);
