@@ -1,6 +1,7 @@
 package cn.les.springcloud.service;
 
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 /**
  * @author
@@ -8,7 +9,7 @@ import org.springframework.stereotype.Component;
  * @descripton
  * @2020/12/3 9:16
  */
-@Component  //注意：一定要加Component
+@Service  //注意：一定要加Component
 public class PaymentFallbackService implements  PaymentHystrixService {
 
     @Override
