@@ -12,12 +12,18 @@
     <artifactId>cloud-consumer-order80</artifactId>
 
     <dependencies>
+
+        <!--包含了sleuth+zipkin-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-zipkin</artifactId>
+        </dependency>
+
         <dependency>
             <groupId>cn.les.springcloud</groupId>
             <artifactId>cloud-api-commons</artifactId>
             <version>${project.version}</version>
         </dependency>
-
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
