@@ -26,7 +26,7 @@
         </dependency>
 
         <dependency>
-            <groupId>com.atguigu.springcloud</groupId>
+            <groupId>cn.les.springcloud</groupId>
             <artifactId>cloud-api-commons</artifactId>
             <version>${project.version}</version>
         </dependency>
