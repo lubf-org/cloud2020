@@ -10,7 +10,7 @@ spring:
           uri: https://github.com/andyleisure/springcloud-config.git #填写你自己的github路径
           search-paths:
             - springcloud-config
-      label: main
+      label: main  #分支
   rabbitmq:
     host: localhost
     port: 5672
